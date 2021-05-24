@@ -23,11 +23,7 @@ function App() {
   const description = document.querySelector(".info h3");
   const chosse = document.querySelector(".chosse");
 
-
-
-// var identif = document.getElementById('identif');
-// var este = setTimeout(container,5000);
-if(container) {
+if(profile) {
   //Moving Animation Event
   container.addEventListener("mousemove", (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
@@ -55,9 +51,8 @@ if(container) {
     description.style.transform = "translateZ(0px)";
     chosse.style.transform = "translateZ(0px)";
   });
+
 };
 
-// window.onload = animate();
-// setTimeout(identif,2000);
 
 export default App;
