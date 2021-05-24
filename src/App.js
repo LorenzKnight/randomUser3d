@@ -23,7 +23,7 @@ function App() {
   const description = document.querySelector(".info h3");
   const chosse = document.querySelector(".chosse");
 
-if(profile) {
+if(container) {
   //Moving Animation Event
   container.addEventListener("mousemove", (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
